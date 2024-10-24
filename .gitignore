@@ -1,0 +1,6 @@
+models
+
+data/
+
+sms/src/private_defaults.py
+!**/__pycache__

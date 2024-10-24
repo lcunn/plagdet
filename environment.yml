@@ -1,0 +1,32 @@
+name: plagdet
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch=2.4.1
+  - torchvision
+  - torchaudio
+  - faiss
+  - numpy
+  - matplotlib
+  - pillow
+  - scipy
+  - pyyaml
+  - requests
+  - tqdm
+  - pandas
+  - scikit-learn
+  - jupyterlab
+  - pip
+  - pip:
+    - wandb
+    - langchain
+    - langchain-community
+    - pydantic
+    - partitura
+    - lxml
+    - xmlschema
+    - dvc
